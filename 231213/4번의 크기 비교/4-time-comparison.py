@@ -1,22 +1,7 @@
 a = int(input())
 b, c, d, e = map(int, input().split())
 
-if a > b:
-    print('1')
-else:
-    print('0')
-
-if a > c:
-    print('1')
-else:
-    print('0')
-
-if a > d:
-    print('1')
-else:
-    print('0')
-
-if a > e:
-    print('1')
-else:
-    print('0')
+print(int(a > b))
+print(int(a > c))
+print(int(a > d))
+print(int(a > e))
