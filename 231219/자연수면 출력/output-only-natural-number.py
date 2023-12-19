@@ -1,9 +1,7 @@
 a, b = map(int, input().split())
 
-i = 0
-while i < b:
-    if a > 0:
+if a > 0:
+    for i in range(b):
         print(a, end='')
-        i += 1
-    else:
-        print('0')
+else:
+    print('0')
