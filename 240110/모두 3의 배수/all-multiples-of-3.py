@@ -1,15 +1,11 @@
-cnt = 0
-sati = False
+sati = True
 
-for i in range(5):
+for _ in range(5):
     num = int(input())
-    if num % 3 == 0:
-        cnt += 1
+    if num % 3 != 0:
+        sati = False
 
-if cnt == 5:
-    sati = True
-
-if sati == False:
-    print('0')
-else:
+if sati == True:
     print('1')
+else:
+    print('0')
